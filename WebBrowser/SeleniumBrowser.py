@@ -74,7 +74,7 @@ class SeleniumBrowser:
 
     def make_get_request(self, url, parameters=None):
 
-        # TODO use Requester
+        # TODO use Requesters
         self.__browser.get(url=url)
 
         status = 200

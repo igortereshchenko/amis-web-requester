@@ -1,10 +1,10 @@
-from InfinityRequester import InfinityRequester
-from InfinityScroller import InfinityScroller
-from Requester import Requester
+from Requesters.InfinityRequester import InfinityRequester
+from Requesters.InfinityScroller import InfinityScroller
+from Requesters.Requester import Requester
 from WebBrowser.WebAction.ActionScroll import ActionScroll
 
 
-# call Requester to get raw http response
+# call Requesters to get raw http response
 requester = Requester(url="http://google.com")
 response = requester.make_get_request({'q': 'ok'})
 
@@ -14,7 +14,7 @@ print("Status {0}\nData {1}".format(status, html))
 
 
 
-# call Requester with html running
+# call Requesters with html running
 requester = Requester(url="https://www.instagram.com/p/BtRzmCkA2sT/", run_html=True)
 response = requester.make_get_request()
 

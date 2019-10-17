@@ -2,7 +2,7 @@ class Response:
 
     def __init__(self, status, data):
         """
-        Requester return this class as result
+        Requesters return this class as result
 
         :param status: http request status
         :param data: http request result - raw html

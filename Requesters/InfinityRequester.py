@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 
-from InfinityScroller import InfinityScroller
+from Requesters.InfinityScroller import InfinityScroller
 from WebBrowser.WebAction.ActionScroll import ActionScroll
 
 

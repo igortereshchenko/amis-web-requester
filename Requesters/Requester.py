@@ -4,12 +4,12 @@ from urllib.parse import urlparse
 
 from urllib3 import ProxyManager, make_headers, PoolManager, disable_warnings
 
-from Response import Response
+from Requesters.Response import Response
 from WebBrowser.SeleniumBrowser import SeleniumBrowser
 
 disable_warnings()
 
-from RequesterException import RequesterException
+from Requesters.RequesterException import RequesterException
 
 
 # https://urllib3.readthedocs.io/en/latest/user-guide.html
