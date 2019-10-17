@@ -1,7 +1,7 @@
 from selenium import webdriver
 import os
 import signal
-from Response import Response
+from Requesters.Response import Response
 
 
 class SeleniumBrowser:
