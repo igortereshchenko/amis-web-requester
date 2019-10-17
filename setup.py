@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
      name='amis-web-requester',
-     version='0.3',
+     version='0.4',
 
      author="Igor Tereshchenko",
      author_email="tereshchenko.igor@gmail.com",
